@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: "/CiberNOVA-PAT-LH-1/",
+    base: '/CiberNOVA-PAT-LH-1/',
     plugins: [
       react(),
       tailwindcss(),
