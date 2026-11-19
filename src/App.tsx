@@ -26,7 +26,7 @@ import { OfficialCard } from './components/OfficialCard';
 import { PreferencesDrawer } from './components/PreferencesDrawer';
 import { PreferencesProvider, usePreferences } from './context/PreferencesContext';
 import { PREFERENCE_ITEMS } from './data/basqueContent';
-import { AvatarConfig, Mission1Phase, MissionId, StudentProfile } from './types';
+import { AvatarConfig, MissionPhase, MissionId, StudentProfile } from './types';
 import { sound, speakBasque } from './utils/sound';
 
 const PROFILE_STORAGE_KEY = 'cibernova_eu_profile_v1';
