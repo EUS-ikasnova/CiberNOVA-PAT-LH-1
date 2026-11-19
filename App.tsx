@@ -15,19 +15,19 @@ import {
   Volume2,
   VolumeX,
 } from 'lucide-react';
-import { MissionCompleteModal, ExitModal, TeacherGuideModal } from './components/Modals';
-import { Mission1Identity } from './components/Mission1Identity';
-import { Mission2Quiz } from './components/Mission2Quiz';
-import { Mission3Privacy } from './components/Mission3Privacy';
-import { Mission4Secrets } from './components/Mission4Secrets';
-import { NexoCompanion } from './components/NexoCompanion';
-import { NexoMascot } from './components/NexoMascot';
-import { OfficialCard } from './components/OfficialCard';
-import { PreferencesDrawer } from './components/PreferencesDrawer';
-import { PreferencesProvider, usePreferences } from './context/PreferencesContext';
-import { PREFERENCE_ITEMS } from './data/basqueContent';
-import { AvatarConfig, Mission1Phase, MissionId, StudentProfile } from './types';
-import { sound, speakBasque } from './utils/sound';
+import { MissionCompleteModal, ExitModal, TeacherGuideModal } from './Modals';
+import { Mission1Identity } from './Mission1Identity';
+import { Mission2Quiz } from './Mission2Quiz';
+import { Mission3Privacy } from './Mission3Privacy';
+import { Mission4Secrets } from './Mission4Secrets';
+import { NexoCompanion } from './NexoCompanion';
+import { NexoMascot } from './NexoMascot';
+import { OfficialCard } from './OfficialCard';
+import { PreferencesDrawer } from './PreferencesDrawer';
+import { PreferencesProvider, usePreferences } from './PreferencesContext';
+import { PREFERENCE_ITEMS } from './basqueContent';
+import { AvatarConfig, MissionPhase, MissionId, StudentProfile } from './types';
+import { sound, speakBasque } from './sound';
 
 const PROFILE_STORAGE_KEY = 'cibernova_eu_profile_v1';
 const MISSIONS_STORAGE_KEY = 'cibernova_eu_completed_missions_v1';
